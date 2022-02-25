@@ -1,0 +1,336 @@
+.SoftwareDiv1 .flLeft{
+  width: 55%;
+}
+.SoftwareDiv1 .spanText{
+  padding-bottom: 0;
+}
+.SoftwareDiv1 .flRight{
+  width: 35%;
+}
+.SoftwareSwiper>div{
+  width: 33.33%;
+}
+.SoftwareSwiperItem{
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+.SoftwareSwiperItem>div{
+  padding: 10%;
+  box-sizing: border-box;
+  transition: .3s ease;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+.SoftwareSwiperItem>div:hover{
+  box-shadow: 1px 1px 6px 0 rgba(0,0,0,0.17);
+  border-color: transparent;
+  transform: translateY(-10px);
+}
+.SoftwareSwiperItem .div1{
+  padding-bottom: 20px;
+}
+.SoftwareSwiperItem .div1 i,.SoftwareSwiperItem .div1 span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.SoftwareSwiperItem .div1 i{
+  font-size: 55px;
+  color: #419eef;
+  width: 60px;
+}
+.SoftwareSwiperItem .div1 span{
+  color: #419EEF;
+  padding-left: 15px;
+  font-size: 22px;
+  width: calc(100% - 75px);
+  box-sizing: border-box;
+}
+.SoftwareSwiperItem .div2{
+  color: #757575;
+  font-size: 15px;
+  padding-top: 20px;
+  line-height: 1.8;
+  border-top: 1px solid #e8e8e9;
+}
+/*********/
+.SoftwareDiv2{
+  margin-top: 30px;
+}
+.SoftwareDiv2 .colDiv3,.SoftwareDiv2 .colDiv4,.SoftwareDiv2 .colDiv5{
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.SoftwareDiv2 .colDiv3{
+  width: 30%;
+}
+.SoftwareDiv2 .colDiv4{
+  width: 25%;
+}
+.SoftwareDiv2 .colDiv5{
+  width: 20%;
+}
+.Software-pricing{
+  border: 1px solid #e8e8e9;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.pricing-header{
+  font-size: 30px;
+  padding: 20px 20px 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.pricing-header>p{
+  padding-bottom: 20px;
+  /*border-bottom: 1px solid #e8e8e9;*/
+  color: #FFFFFF;
+}
+.pricing-list{
+  padding: 20px 20px;
+}
+.pricing-list li{
+  padding-bottom: 10px;
+}
+.pricing-list i,.pricing-list span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.pricing-list i{
+  color: #419eef;
+  font-size: 20px;
+  width: 20px;
+}
+.pricing-list span{
+  padding-left: 15px;
+  width: calc(100% - 35px);
+  color: #757575;
+  font-size: 16px;
+}
+.bg1{
+  background: #fa7565;
+}
+.bg2{
+  background: #657dfa;
+}
+.bg3{
+  background: #3abd98;
+}
+.bg4{
+  background: #00a0f0;
+}
+.bg5{
+  background: #3a8eef;
+}
+/***************/
+.developDivItem{
+  padding: 50px;
+}
+.developDivItem>div{
+  box-sizing: border-box;
+}
+.developDiv .developDivItem:nth-child(odd) .div1,.developDiv .developDivItem:nth-child(even) .div2{
+  float: left;
+}
+.developDiv .developDivItem:nth-child(odd) .div2,.developDiv .developDivItem:nth-child(even) .div1{
+  float: right;
+}
+.developDiv .developDivItem:nth-child(odd) .div1,.developDiv .developDivItem:nth-child(even) .div1{
+  width: 45%;
+}
+.developDiv .developDivItem:nth-child(odd) .div2,.developDiv .developDivItem:nth-child(even) .div2{
+  width: 50%;
+}
+.projectDiv{
+  margin-top: 50px;
+}
+/*app案例*/
+.appProject ul li{
+  float: left;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.appProject .div4li li{
+  width: 25%;
+}
+.appProject .div3li li{
+  width: 33.33%;
+}
+.appProject ul li>div{
+  box-shadow: 1px 1px 6px 0 rgba(0,0,0,0.3);
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.appProject ul li>div:hover{
+  transform: translateY(-5px);
+}
+.modalAppImg>li{
+  display: inline-block;
+  width: 33.33%;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.modalIpadImg img{
+  width: 100%;
+}
+.modalIpadImg .swiper-pagination{
+  width: 80px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 20px;
+  left: 50%;
+  transform: translate(-50%,0);
+  bottom: 5px;
+}
+/*wechat*/
+.wBtnMore{
+	text-align: right;
+}
+.wBtnMore>button{
+	transition: all .5s ease;
+  font-size: 18px;
+}
+.wBtnMore>button:hover{
+	margin-right: 10px;
+}
+.wBtnMore img{
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.wechat1>button{
+  color: #04be02;
+}
+.wechat2>button{
+  color: #605ab0;
+}
+.wechat3>button{
+  color: #3381d8;
+}
+
+.appProject ul li .codeDiv{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  visibility: hidden;
+  transition: 0.5s;
+  transform: scale(0);
+}
+.appProject ul li .codeDiv>img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.appProject ul li>div:hover .codeDiv{
+  visibility: initial;
+  transform: scale(1);
+}
+/*Mall*/
+.mallBigDiv1{
+  margin-top: 20px;
+}
+.mallBigDiv1>ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.mallBigDiv1>ul li{
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.mallBigDiv1>ul li>div{
+  border: 1px solid #e8e8e9;
+  padding: 15% 10%;
+  border-radius: 10px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.mallBigDiv1>ul li i{
+  font-size: 60px;
+  color: #419eef;
+}
+.mallBigDiv1>ul li span{
+  display: block;
+  font-size: 28px;
+  margin: 20px 0 15px;
+}
+.mallBigDiv1>ul li p{
+  font-size: 15px;
+  color: #757575;
+  line-height: 1.8;
+}
+.bgFb5{
+  background: rgba(251,251,251,0.6);
+}
+.mallBigDiv2>ul{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+
+}
+.mallBigDiv2>ul li{
+  display: table-cell;
+  width: 33.33%;
+  padding: 0 20px;
+}
+.mallBigDiv2>ul li>h4{
+  font-weight: initial;
+  border-left: 4px solid #4788ae;
+  padding-left: 15px;
+  font-size: 22px;
+  line-height: 1;
+  color: #4788ae;
+}
+.mallBigDiv2>ul li>div{
+  font-size: 16px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.mallBigDiv2>ul li>div p{
+  padding: 5px 0;
+}
+.h3Title{
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #419eef;
+}
+.MallShopText{
+  padding: 30px 10px 0;
+  box-sizing: border-box;
+}
+.MallShopText>p{
+  margin-bottom: 10px;
+}
+.MallShopText>ul li{
+  padding: 5px 0;
+  color: #757575;
+  font-size: 15px;
+}
+.MallShopText .zhuyi{
+  color: #ae1c12;
+}
+.MallShopText>ul li>i{
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  color: #419eef;
+}
+.MallShopText>ul li>span{
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 30px);
+}
+.mallBgImg{
+	background-image: url('../img/topShow.png');
+}

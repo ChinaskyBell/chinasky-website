@@ -1,0 +1,357 @@
+.indexVideo{
+	position: relative;
+	z-index: 0;
+	margin: auto;
+	max-width: 1250px;
+}
+.indexVideo>video{
+	width: 100%;
+}
+.indexVideoMuted{
+	position: absolute;
+	right: 100px;
+	top: 50px;
+	cursor: pointer;
+}
+.indexVideoMuted .icon-shengyin{
+	background: rgba(0,0,0,0.6);
+	border-radius: 50%;
+}
+.indexVideoMuted i{
+	font-size: 35px;
+	color: #FFFFFF;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.indexVideoMuted .icon-cha{
+	position: absolute;
+	right: 0;
+  top: 0;
+	color: #f44336;
+	opacity: 1;
+	transition: .5s;
+	font-size: 30px;
+}
+.indexVideoMuted.active .icon-cha{
+	opacity: 0;
+}
+.indexVideoPlay{
+  position: absolute;
+  right: 30px;
+  top: 50px;
+  background: rgba(0,0,0,0.6);
+	border-radius: 50%;
+  width: 50px;
+	height: 50px;
+	line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s;
+}
+.indexVideoPlay i{
+  color: #FFFFFF;
+  font-size: 30px;
+}
+.indexVideoPlay .icon-bofang,.indexVideoPlay.active .icon-pause{
+  display: none;
+}
+.indexVideoPlay.active .icon-bofang{
+  display: block;
+}
+
+.aboutText{
+	display: table;
+	width: 100%;
+}
+.aboutText>div{
+	display: table-cell;
+	vertical-align: middle;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.aboutText img{
+	width: 100%;
+	transition: opacity 500ms ease, transform 500ms ease;
+	transform: scale(1)
+}
+.aboutText img:hover{
+	transform: scale(1.1);
+}
+.aboutText .div1{
+	padding-right: 60px;
+  width: 60%;
+}
+.aboutBtnMore{
+	text-align: right;
+}
+.aboutBtnMore>button{
+	color: #419EEF;
+	transition: all .5s ease;
+}
+.aboutBtnMore>button:hover{
+	margin-right: 10px;
+}
+/*网络维护*/
+.maintainTable{
+	margin-top: 30px;
+}
+.maintainTable>table{
+	width: 100%;
+	text-align: center;
+	border: 1px;
+	font-size: 15px;
+}
+.maintainTable thead th>p{
+	color: #FFFCF9;
+	padding: 8px 0;
+	font-weight: initial;
+	font-size: 16px;
+}
+.maintainTable thead th>p:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+  border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+.maintainTable tfoot th>p{
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	height: 10px;
+	width: 100%;
+}
+.maintainTable tfoot th>.p1,.maintainTable thead th>.p1:before{
+	background: #ff8080;
+}
+.maintainTable tfoot th>.p2,.maintainTable thead th>.p2:before{
+	background: #03A9F4;
+}
+.maintainTable tfoot th>.p3,.maintainTable thead th>.p3:before{
+	background: #339966;
+}
+.maintainTable tfoot th>.p4,.maintainTable thead th>.p4:before{
+	background: #3366ff;
+}
+.maintainTable tbody td{
+	padding: 5px 0;
+}
+.maintainTable tbody>tr:nth-child(even){
+	background: #f8f9fa;
+}
+.maintainTable th{
+	width: 20%;
+  position: relative;
+}
+.maintainTable th:nth-child(1){
+	width: 40%;
+}
+.maintainTable .icon-gou{
+	color: #b1f33b;
+}
+.maintainTable .icon-chacha{
+	color: #ff440c;
+}
+.maintainTable table td{
+	border-width: 0 1px 0;
+	border-style: solid;
+	border-color: #eee;
+}
+
+/*案例展示*/
+.protectTit{
+	font-size: 45px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.protectNav {
+	margin: 0 auto 40px;
+	text-align: center;
+}
+.protectNav li {
+	display: inline-block;
+	margin: 0 15px;
+	font-size: 15px;
+	color: #333;
+	cursor: pointer;
+}
+.protectNav .active {
+	color: #03A9F4;
+}
+.protectDivs>div {
+	width: 25%;
+	padding: 10px;
+	position: relative;
+	cursor: pointer;
+	box-sizing: border-box;
+  float: left;
+  overflow: hidden;
+}
+.protectDivs>div>div{
+  overflow: hidden;
+}
+.protectDivs img {
+	width: 100%;
+  transform: scale(1);
+  transition: all .5s ease;
+}
+.protectDivs>div p{
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	color: #FFFFFF;
+	text-align: center;
+	bottom: -45px;
+	left: 10px;
+	right: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+	transition: all .5s ease;
+}
+.protectDivs .filteredOut{
+	z-index: -1;
+}
+.protectDivs>div:hover img{
+  transform: scale(1.1);
+}
+.protectDivs>div:hover p{
+	bottom: 10px;
+}
+.protectBtn{
+	margin-top: 50px;
+	text-align: center;
+}
+.protectBtn>button{
+	padding: 15px 40px;
+	color: #FFFFFF;
+	background: #03A9F4;
+	font-size: 14px;
+	transition: 0.5s;
+	border-radius: 3px;
+}
+.protectBtn>button:hover{
+	background: #0c85bc;
+}
+
+/*背景图片*/
+.bgGrayImg{
+	background-image: url(../img/bg-gray.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media screen and (max-width:1024px){
+	.aboutText .div1{
+		padding-right: 30px;
+		width: 60%;
+	}
+	.indexVideoMuted,.indexVideoPlay{
+		top: 20px;
+	}
+}
+@media screen and (max-width:767px){
+	.aboutText,.aboutText>div{
+		display: block;
+		width: 100%;
+	}
+	.aboutText .div1{
+		width: 100%;
+		padding-right: 0;
+		margin-bottom: 15px;
+	}
+	.maintainTable{
+		margin-top: 20px;
+	}
+	.maintainTable thead th>p{
+		font-size: 13px;
+    line-height: 1.2;
+	}
+	.maintainTable>table{
+		font-size: 12px;
+	}
+	.maintainTable tbody td{
+		line-height: 1.2;
+	}
+	.maintainTable thead th>p{
+		padding: 5px 0;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+	}
+	.indexBgScroll li strong{
+		font-size: 24px;
+	}
+	.indexBgScroll li{
+		font-size: 13px;
+	}
+	.indexBgScroll li::before{
+		height: 30px;
+		width: 1px;
+	}
+	.protectNav{
+		margin: 0 auto 20px;
+	}
+	.protectDivs>div{
+		width: 50%;
+		padding: 5px;
+	}
+	.protectDivs>div p{
+		left: 5px;
+		right: 5px;
+	}
+	.protectDivs>div:hover p{
+		bottom: 5px;
+	}
+	.protectBtn{
+		margin-top: 20px;
+	}
+	.protectBtn>button{
+		padding: 10px 25px;
+	}
+  .indexVideoPlay{
+    top: 80px;
+  }
+  .indexVideoMuted,.indexVideoPlay{
+		right: 20px;
+	}
+}
+/*联络我们*/
+.connectInputDiv{
+	margin-top: 50px;
+}
+.connectInputDiv::before{
+	display: table;
+	content: "";
+}
+.divRow3{
+	margin: 0 -15px;
+}
+.divRow3>div{
+	float: left;
+	width: 33.33%;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.connectTextarea{
+	margin-top: 30px;
+}
+@media screen and (max-width:767px){
+	.connectInputDiv{
+		margin-top: 0;
+	}
+	.divRow3{
+		margin: 0;
+	}
+	.divRow3>div{
+		width: 100%;
+	}
+	.connectTextarea,.divRow3>div{
+		margin-bottom: 15px;
+		margin-top: 0;
+		padding: 0;
+	}
+}
